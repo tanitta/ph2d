@@ -1,6 +1,6 @@
 #pragma once
 #include "ofMain.h"
-namespace ph2d{
+namespace py2d{
 	class KineticModel
 	{
 	public:
