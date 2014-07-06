@@ -1,0 +1,6 @@
+/bin
+/obj
+*.sublime-project
+*.sublime-workspace
+*.cbp
+*.workspace
