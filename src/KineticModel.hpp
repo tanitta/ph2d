@@ -4,9 +4,9 @@ namespace py2d{
 	class KineticModel
 	{
 	public:
-		float differenceTime;
-		float mass;
-		float viscosity;
+		double differenceTime;
+		double mass;
+		double viscosity;
 		ofVec3f ver;
 		ofVec3f acc;
 		ofVec3f pos;

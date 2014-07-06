@@ -1,23 +1,21 @@
 #pragma once
-
 #include "ofMain.h"
-#include "KineticModel.hpp"
+#include "Chip.hpp"
 class ofApp : public ofBaseApp{
 	private:
-		// entity();
-		py2d::KineticModel entity;
+		py2d::Chip chip;
 	public:
 		void setup(){
 			ofSetWindowTitle("py2d");
-			
-			entity.differenceTime = 0.1;
 		};
 		void update(){
-			entity.AddForce(ofVec3f(0,9.8,0));
-			entity.update();
+			// entity.AddForce(ofVec3f(0,9.8,0));
+			// entity.update();
+			chip.update();
 		};
 		void draw(){
-			entity.draw();
+			// entity.draw();
+			chip.draw();
 		};
 
 		void keyPressed(int key){};
